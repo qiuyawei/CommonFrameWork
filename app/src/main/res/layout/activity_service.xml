@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:keepScreenOn="true">
+
+    <TextView
+        android:id="@+id/tv_get_service"
+        style="@style/normalButton"
+        android:gravity="center"
+        android:hint="获取service发送的东西" />
+
+    <Button
+        android:id="@+id/bt_service"
+        style="@style/normalButton"
+        android:text="start service" />
+
+    <Button
+        android:id="@+id/bt_service_unbinder"
+        style="@style/normalButton"
+        android:text="close service" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clipChildren="false"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@android:color/holo_blue_light">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp60"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_gravity="bottom"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
