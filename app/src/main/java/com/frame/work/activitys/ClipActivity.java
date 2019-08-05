@@ -36,6 +36,9 @@ public class ClipActivity extends BaseActivity {
         Log.i(this.getClass().getName(),"state:"+objectAnimator.isStarted());
         Log.i(this.getClass().getName(),"state:"+objectAnimator.isRunning());
         Log.i(this.getClass().getName(),"state:"+objectAnimator.isPaused());
+
+
+//        ___||___\\
         switch (view.getId()) {
             case R.id.iv_module:
 //                Intent intent=new Intent(ClipActivity.this, ThreadActivity.class);
@@ -69,21 +72,6 @@ public class ClipActivity extends BaseActivity {
                 }
                 break;
         }
-    }
-
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-//        animationSet=new AnimatorSet();
-//        objectAnimator = ObjectAnimator.ofFloat(ivCenter,"scaleX" , 0, 3,1);
-//        tranSlate=ObjectAnimator.ofFloat(ivCenter,"translationY",0,100);
-////        alpha=ObjectAnimator.ofArgb(ivCenter,"alpha",0.3f,0.8f,1);
-////        objectAnimator.setDuration(2000);
-////        objectAnimator.setRepeatCount(1);
-////        objectAnimator.start();
-//        animationSet.playTogether(animationSet,tranSlate,alpha);
-//        animationSet.setDuration(2000);
-//        animationSet.
     }
 
 }
