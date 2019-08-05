@@ -74,5 +74,5 @@ public class ClipActivity extends BaseActivity {
         }
     }
 
-//    only test for git
+//    only test for git  A and B and C
 }
