@@ -38,7 +38,7 @@ public class ClipActivity extends BaseActivity {
         Log.i(this.getClass().getName(),"state:"+objectAnimator.isPaused());
 
 
-//        ___||___\\
+//        ___||___\\................///.........//
         switch (view.getId()) {
             case R.id.iv_module:
 //                Intent intent=new Intent(ClipActivity.this, ThreadActivity.class);
@@ -74,4 +74,5 @@ public class ClipActivity extends BaseActivity {
         }
     }
 
+//    only test for git
 }
